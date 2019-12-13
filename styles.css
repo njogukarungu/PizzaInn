@@ -24,6 +24,11 @@ h6{
 }
 .card-body p{
     float: right;
+    width: 34%;
+    padding-left: 1%;
+}
+.card-body details{
+    float: right;
     width: 35%;
 }
 .card-body img{
