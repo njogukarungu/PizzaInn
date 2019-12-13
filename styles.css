@@ -1,0 +1,37 @@
+.jumbotron{
+    height: 80px;
+    background-image: image();
+    background: powderblue;
+}
+.navbar ul{
+    float: right;
+}
+.navbar ul li{
+    list-style-type: none;
+    display: inline-block;
+}
+.card-body{
+    padding: 0;
+}
+img{
+    height: 10%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+h6{
+    margin-bottom: 0;
+}
+.card-body p{
+    float: right;
+    width: 35%;
+}
+.card-body img{
+    width: 65%;
+}
+.rows{
+    background-color: rgb(131, 9, 9);
+    padding: 10px;
+}
+
+
