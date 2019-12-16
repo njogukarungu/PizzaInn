@@ -22,7 +22,7 @@ img{
 h6{
     margin-bottom: 0;
 }
-.card-body p{
+.card-body form{
     float: right;
     width: 34%;
     padding-left: 1%;
