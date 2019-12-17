@@ -130,6 +130,7 @@ height: 480px;
   form{
       width: 40%;
       margin: 0 auto;
+      
         height: 500px;
         background-image: url(/images/img8.jpeg);
         margin-top: 10px;
@@ -161,6 +162,7 @@ h4 {
 }
 
 .order-overlay {
+    margin-left: 15%;
     padding: 20px 20px 0px 20px;
     border-radius: 20px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.596), rgba(0, 0, 0, 0.616)), url('https://bit.ly/2PQg72Z');
@@ -169,4 +171,8 @@ h4 {
 .checkout {
     border-radius: 20px;
     margin-top: 20px;
+}
+pizza_form{
+    width: 60%;
+    margin-left: 20%;
 }
