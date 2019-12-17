@@ -1,9 +1,9 @@
 
 
 $(document).ready(function() {
-  $("#checkout").click(function(event) {
+  $("#order").click(function(event) {
       event.preventDefault();
-    var flavour = parseInt($("#flavours :selected").val());
+    var type = parseInt($("#type :selected").val());
     var size = parseInt($("#sizes :selected").val());
     var crust = parseInt($("#crusts :selected").val());
     var toppings = parseInt($("#toppings :selected").val());

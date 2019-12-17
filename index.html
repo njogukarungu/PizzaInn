@@ -64,97 +64,64 @@
           <div class="col-md-4"><img src="images/img12.jpeg" alt=""></div>
           <div class="col-md-4"><img src="images/img11.jpeg" alt=""></div>              
           </div>
-           </div>
-           <div class="order_pizza">
-             <!-- <form id="pizzas">
-               <label for="">Pizza Type</label>
-               <select name="pizza_type" id="pizza_type" class="custom-select custom-select-md mb3">
-                 <option value="">Pizza type</option>
-                 <option value="1">Nepotalian</option>
-                 <option value="2">Chicago</option>
-                 <option value="3">Greek</option>
-                 <option value="5">Sicilian</option>
-                 <option value="6">New York</option>
-               </select><br>
-               <select name="pizza_size" id="pizza_size" class="custom-select custom-select-md mb3">
-                 <option value="1">Small</option>
-                 <option value="2">Medium</option>
-                 <option value="3">Large</option>
-                </select><br>
-                <select name="pizza_crust" id="pizza_crust" class="custom-select custom-select-md mb3">
-                  <option value="1">Crispy</option>
-                  <option value="2">Stuffed</option>
-                  <option value="3">Gluten-free</option>
-                  </select><br>
-                   <select name="pizza_topping" id="pizza_topping" class="custom-select custom-select-md mb3">
-                  <option value="1">Mushrooms</option>
-                  <option value="2">Onions</option>
-                  <option value="3">Sausage</option>
-                  <option value="4">Bacon</option>
-                  <option value="5">Pepperon</option>
-                  </select><br>
-                  <input class = "number" type="number" placeholder="Number of Pizzas"class="custom-select custom-select-md mb3">
-                  <button type="submit" class="custom-select custom-select-md mb3" id="senddata">Submit</button>
-                  
-                </form> -->
-
+           </div>            
 <div id="pizza_form">
  <div class="col-sm-8 order-overlay text-center">
                     <form id="pizza" class="col-sm-6 offset-sm-3 text-center">
-                        <label for="flavours">Pick your pizza Flavour:</label>
-                        <select id="flavours" class="custom-select custom-select-md mb-3 flavour" required>
-                            <option value="300">Veg Tikka</option>
-                            <option value="400">Chicken Tikka</option>
-                            <option value="250">Peri-Peri Chicken</option>
+                        <label for="type">Pick your pizza Flavour:</label>
+                        <select id="" class="custom-select custom-select-md mb-3 flavour" required>
+                            <option value="400">Chicago</option>
+                            <option value="500">Neapolitan</option>
+                            <option value="6000">Detroit</option>
                             <option value="500">BBQ Steak</option>
-                            <option value="300">Boerewors</option>
-                            <option value="350">Hawaiian</option>
-                            <option value="400">Chicken and Mushroom</option>
+                            <option value="400">St Louis</option>
+                            <option value="50">Hawaiian</option>
+                            <option value="450">New York</option>
                         </select>
                         <label for="sizes">Chose your preferred Size:</label>
                         <select id="sizes" class="custom-select custom-select-md mb-3" required>
-                            <option value="400">Regular</option>
-                            <option value="800">Medium</option>
-                            <option value="1200">Large</option>
+                            <option value="500">Regular</option>
+                            <option value="700">Medium</option>
+                            <option value="1100">Large</option>
                         </select>
                         <label for="crusts">Choose your favorite Crust:</label>
                         <select id="crusts" class="custom-select custom-select-md mb-3" required>
-                            <option value="100">Thin Crust @ Ksh. 100</option>
-                            <option value="150">Thick Crust @ Ksh. 150</option>
-                            <option value="180">FlatBread Crust @ sh. 180</option>
-                            <option value="280">Custom Crust @ sh. 280</option>
+                            <option value="200">Thin Crust @ Ksh. 100</option>
+                            <option value="250">Thick Crust @ Ksh. 150</option>
+                            <option value="380">FlatBread Crust @ sh. 180</option>
+                            <option value="350">Custom Crust @ sh. 280</option>
                         </select>
                         <label for="toppings">Select Your favourite Toppings</label>
                         <select id="toppings" class="custom-select custom-select-md mb-3" required>
-                            <option value="80">Tomato @ sh. 80</option>
-                            <option value="80">Onions @ sh. 80</option>
-                            <option value="80">Mushroom @ sh. 80</option>
-                            <option value="120">Olives @ sh. 120</option>
-                            <option value="120">Pineapple @ sh. 120</option>
-                            <option value="170">Beef Peperoni @ sh. 170</option>
-                            <option value="170">Periperi Chicken @ sh. 170</option>
+                            <option value="100">Tomato</option>
+                            <option value="100">Onions</option>
+                            <option value="100">Mushroom</option>
+                            <option value="150">Olives</option>
+                            <option value="150">Sausage</option>
+                            <option value="200">Beef</option>
+                            <option value="200">Chicken</option>
                         </select>
-                        <label for="number">Number of Pizza's</label>
+                        <label for="number">No. of Pizzas</label>
                         <input type="number" class="form-control" id="number" placeholder="Number of pizzas" min="1"
                             max="10" required>
-                        <button type="submit" class="btn btn-danger checkout" id="checkout">Checkout</button>
+                        <button type="submit" class="btn btn-danger checkout" id="order">Order</button>
                     </form>
 
                 </div>
                 </div>
             </div>
 
-            <div class="order-summary" id="sum-order">
-                <h1 class="text-center" id="summary">Order Summary</h1>
-                <h2 class="text-center summary">Your order is as follows:</h2>
+            <div class="orders" id="sum-order">
+                <h1 class="text-center" id="summary">Order Pizza</h1>
+               
                 <ul id="list" class="text-center sum">
                 </ul>
             </div>
             <div class="d-block mx-auto text-center">
                 <button class='deliver'>Make Delivery</button>
-                <button class='delivernot'>Pick Up</button>
+                <button class='delivernot'>Station</button>
             </div>
-        </div>
+        </div>  
 
 
            </div>
